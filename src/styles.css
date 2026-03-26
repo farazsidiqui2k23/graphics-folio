@@ -1,3 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+
+@theme{
+    --color-primary-black: #0E0F0F;
+    --color-secondary-black: #101111;
+    --color-card-black: #141514;
+    --color-dark-creame: #BEBCA8;
+    --color-light-creame: #FEFCE1;
+    
+}
