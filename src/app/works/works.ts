@@ -8,8 +8,15 @@ import { Component } from '@angular/core';
   styleUrl: './works.css',
 })
 export class Works {
+  worksCategory = ['All', 'Branding', 'Social Media', 'Logo Design', 'Visual Art'];
+  defaultCategory = 'All';
 
-    works = [
+  selectCategory(category: string) {
+    this.defaultCategory = category;
+    console.log(this.defaultCategory);
+  }
+
+  works = [
     {
       count: '01',
       title: 'Digital Branding',

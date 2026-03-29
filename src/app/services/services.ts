@@ -13,26 +13,26 @@ export class Services {
   services = [
     {
       count: '01',
-      title: 'Digital Branding',
-      desc: 'Blend of strategic thinking and creative flair to craft a digital identity that resonates and captivates.',
+      title: 'Brand Identity',
+      desc: 'Aims to develop brand identity that reflects your values and connects with your target audience through impactful designs.',
     },
     {
       count: '02',
 
-      title: 'Visual Design',
-      desc: 'Blend of artistic intuition with strategic insight to craft a visual identity.',
+      title: 'Social Media',
+      desc: 'Creating engaging and visually appealing content that boosts brand awareness, increases engagement, and delivers impactful results.',
     },
     {
       count: '03',
 
-      title: 'UX Research',
-      desc: 'Blend of functionality with aesthetics to create delightful experience.',
+      title: 'Logo Design',
+      desc: 'Designing clean, modern, and minimalist logos that create a strong visual identity and leave a lasting impression for your brand.',
     },
     {
       count: '04',
 
-      title: 'Art Direction',
-      desc: 'Blend of strategic thinking and artistic finesse to craft a visual identity that goes beyond aesthetics.',
+      title: 'Visual Art',
+      desc: 'Combining creativity and strategy to craft visually compelling designs that communicate your brand effectively.',
     },
   ];
 }

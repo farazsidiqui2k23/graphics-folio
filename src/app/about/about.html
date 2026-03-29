@@ -1,0 +1,126 @@
+<div class="w-full bg-secondary-black px-4 md:px-12 py-16">
+  <h1
+    class="text-5xl my-4 bg-linear-to-r from-dark-creame to-light-creame bg-clip-text text-transparent md:text-6xl"
+  >
+    About Me
+  </h1>
+  <!-- first sec -->
+  <div class="flex flex-col md:flex-row gap-6">
+    <div class="bg-card-black p-16 rounded-xl flex items-center justify-center">
+      <div class="w-48 h-48 rounded-full overflow-hidden">
+        <img
+          src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+          class="w-full h-full object-cover"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="bg-card-black px-8 py-12 md:px-12 rounded-xl items-center justify-center">
+      <h2 class="text-light-creame text-4xl my-2">Hi, I'm Faraz Siddiqui</h2>
+      <p class="text-dark-creame text-lg my-4">
+        a certified and professional graphic designer with over 4 years of experience. My top
+        priority is client satisfaction, and I take pride in delivering high-quality, visually
+        compelling designs that meet your needs. I'm passionate about bringing ideas to life and
+        would be glad to assist you with your next project! Thanks!
+      </p>
+    </div>
+  </div>
+  <!-- scnd sec -->
+  <div class="flex flex-col md:flex-row gap-6 mt-8 md:justify-between">
+    <div class="bg-card-black px-8 py-12 md:px-12 rounded-xl items-center justify-center md:w-1/2">
+      <h2 class="text-light-creame text-4xl my-2">Education</h2>
+      <div class="flex items-center gap-4">
+        <!-- Logo -->
+        <div
+          class="w-16 h-16 bg-secondary-black rounded-2xl flex items-center justify-center overflow-hidden"
+        >
+          <img src="\logo\ssuet-logo.png" class="w-full h-full object-contain" alt="" />
+        </div>
+
+        <!-- Content -->
+        <div>
+          <h2 class="text-light-creame">BS in Computer Science</h2>
+          <div class="bg-secondary-black px-3 py-1 rounded-md mt-1">
+            <h3 class="text-dark-creame text-sm">2023 - 2027</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-card-black px-8 py-12 md:px-12 rounded-xl items-center justify-center md:w-1/2">
+      <h2 class="text-light-creame text-4xl my-2">Experience</h2>
+      <div class="flex items-center gap-4">
+        <!-- Logo -->
+        <div
+          class="w-16 h-16 bg-secondary-black rounded-2xl flex items-center justify-center overflow-hidden"
+        >
+          <img src="\logo\webowolf-logo.png" class="w-full h-full object-contain" alt="" />
+        </div>
+
+        <!-- Content -->
+        <div>
+          <h2 class="text-light-creame">Full time Graphic Designer</h2>
+          <div class="bg-secondary-black px-3 py-1 rounded-md mt-1">
+            <h3 class="text-dark-creame text-sm">2025 - Present</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 3rd section -->
+  <div class="flex flex-col md:flex-row gap-6 mt-8">
+    <!-- Skills Card -->
+    <div class="bg-card-black px-8 py-12 md:px-12 rounded-xl w-full md:w-3/4">
+      <h2 class="text-light-creame text-4xl mb-8">Skills</h2>
+
+      <div class="grid grid-cols-2 md:grid-cols-5 gap-6">
+        <!-- Item -->
+        <div class="flex flex-col items-center gap-3" *ngFor="let skill of skills">
+          <div class="bg-secondary-black p-6 rounded-xl flex flex-col items-center">
+            <img class="w-10 h-10 object-contain mb-3" src="\logo\webowolf-logo.png" alt="logo" />
+            <p class="text-dark-creame text-sm">{{ skill.level }}%</p>
+          </div>
+          <h3 class="text-light-creame text-sm">{{ skill.name }}</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right Side Cards -->
+    <div class="flex flex-col gap-6 w-full md:w-1/4">
+      <div class="bg-card-black rounded-xl flex flex-col items-center justify-center py-12">
+        <h2 class="text-light-creame text-5xl">4+</h2>
+        <p class="text-dark-creame text-center mt-2">Years of Experience</p>
+      </div>
+
+      <div class="bg-card-black rounded-xl flex flex-col items-center justify-center py-12">
+        <h2 class="text-light-creame text-5xl">200+</h2>
+        <p class="text-dark-creame text-center mt-2">Projects Completed</p>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-col items-center md:flex-row gap-6 mt-8">
+    <a
+      class="bg-gradient-to-r from-dark-creame to-light-creame hover:from-light-creame hover:to-dark-creame px-6 py-2 rounded-full text-lg font-medium my-4"
+    >
+      View Resume
+    </a>
+    <div class="flex justify-center my-4 mx-6">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="text-dark-creame w-6 h-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        strokeWidth="{1.5}"
+        stroke="currentColor"
+        className="size-6"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+        />
+      </svg>
+
+      <a href="https://wa.me/923482755349" class="text-light-creame mx-2">Get in Touch</a>
+    </div>
+  </div>
+</div>
