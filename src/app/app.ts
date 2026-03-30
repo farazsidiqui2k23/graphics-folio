@@ -9,6 +9,7 @@ import { FormSec } from './form-sec/form-sec';
 import { Footer } from './footer/footer';
 
 
+
 @Component({
   selector: 'app-root',
   imports: [
@@ -19,7 +20,8 @@ import { Footer } from './footer/footer';
     About,
     Marquee,
     FormSec,
-    Footer
+    Footer,
+    
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'

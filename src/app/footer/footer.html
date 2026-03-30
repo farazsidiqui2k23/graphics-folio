@@ -1,1 +1,26 @@
-<p>footer works!</p>
+<div class="w-full bg-primary-black px-4 md:px-12 py-16 flex flex-col justify-center items-center
+ gap-6 md:gap-8 border-t-[0.5px] border-dark-creame/30">
+  <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-dark-creame">
+    <img
+      class="w-full h-full object-cover object-top"
+      src="https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg"
+      alt=""
+    />
+  </div>
+
+  <ul class="grid grid-cols-3 md:grid-cols-4 text-dark-creame gap-2 md:gap-10">
+    <li class="text-lg font-medium">Services</li>
+    <li class="text-lg font-medium">Works</li>
+    <li class="text-lg font-medium">About</li>
+    <li class="text-lg font-medium">"<span class="font-light">Say Hello</span>"</li>
+  </ul>
+
+  <div class="flex gap-4">
+
+    <fa-icon [icon]="faFacebookF" class="text-dark-creame text-2xl"></fa-icon>
+    <fa-icon [icon]="faInstagram" class="text-dark-creame text-2xl"></fa-icon>
+    <fa-icon [icon]="faLinkedinIn" class="text-dark-creame text-2xl"></fa-icon>
+  </div>
+
+    <p class="text-dark-creame text-sm mt-4">&copy; 2024 Faraz Siddiqui. All rights reserved.</p>
+</div>
